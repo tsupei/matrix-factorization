@@ -19,3 +19,14 @@ Different methods of Matrix Factorization
 2. SVD
 3. ALS
 
+
+# Data
+
+We use data from PTT Gossiping Board. There are 2000 articles represented by JSON(You can download here [https://drive.google.com/file/d/1IoYUJsH0KzJ3wbiyxO1AG-CVbY9O8yPB/view?usp=sharing](https://drive.google.com/file/d/1IoYUJsH0KzJ3wbiyxO1AG-CVbY9O8yPB/view?usp=sharing))
+
+# Experiment
+
+To begin, let's first take a look at test/test_case_1
+
+We simply use tf-idf to convert each article into a vector of tf-idf. Then, we can use cosine similarity(or others ex. Jaccard Similarity) to get recommendation.
+
